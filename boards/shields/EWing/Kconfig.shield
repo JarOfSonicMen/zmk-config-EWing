@@ -1,1 +1,5 @@
+config SHIELD_EWING_LEFT
+    def_bool $(shields_list_contains,ewing_left)
 
+config SHIELD_EWING_RIGHT
+    def_bool $(shields_list_contains,ewing_right)
